@@ -1,0 +1,50 @@
+comandos do GIT HUB
+
+cd - change direction  - 
+cd/  - vai para raiz
+cd windows   vai parapasta windows
+dir -  lista de diretórios
+mkdir - Cria diretorio
+mkdir workspace - vai criar a pasta workspace
+echo hello > hello.txt
+del -  deleta só arquivos
+rmdir workspace /s /q  - deleta a pasta workspace com todos os seus arquivos
+cls
+tab auto completa nomes de pastas
+
+no linx
+
+ls - lista de diretórios(i
+cd - igual no windows
+clear - mesma função do cls do windows pode ser usado ctrl l que faz a mesma coisa
+mkdir - igual do winsowa
+rm -rf workspace/ faz o mesmo que no windows
+
+openssl é uma pasta para fazer a encriptação em sha1 - linha de comando é  openSSL> sha1 ola_mundo.txt(ou seja, sha1 mais nome do arquivo)
+ou  echo "ola_mundo.txt" |openSSL sha1 (sem espaço entre Pipe e openSSL, caso contrário não funciona)
+
+blob - bloco basico de composição - blob só guarda o Sha1
+tree - arvore de blobs - arvores podem apontar para outras árvores e para os blobs
+commit - objeto que junta tudo, aponta para a arvore, para um parente, para um autor possui também um timestamp
+e possui sha1 também
+se alterar o sha1 da blob, vai alterar o sha1 da tree, e reflete também na alteração do commit
+
+-a mostra pasta oculta
+git config --list lista as configurações
+git remote add origin https://github.com/AntonioRolim73/Livro-de-receitas.git  - linka o repositorio local com o repositório do GIT HUB
+git remote -v lista os repositorios vinculados
+
+git push origin master
+
+Para clonar via Https do git, criar pasta repositório/ abrir git bath here dentro da pasta e usar o comando
+git clone e colar pelo paste o link copiado dogithub
+
+git add. adiciona os arquivos no repositório local
+git commit -m " cria um commit para as alterações/inclusões feitas pelo add . e deixa pronto para envio para o GitHub  "
+git push origin main  - manda o que foi commitado localmente para o Git Hub
+
+
+
+
+
+
